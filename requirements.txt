@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+tensorflow
+transformers
+pydantic
+python-dotenv
+pytest
+httpx
+pandas
+matplotlib
+seaborn
+nltk
+scikit-learn
+numpy
+jupyter
