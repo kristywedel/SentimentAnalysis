@@ -1,4 +1,3 @@
-# SentimentAnalysis
 # Sentiment Analysis Project
 
 ## Overview
