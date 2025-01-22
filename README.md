@@ -54,7 +54,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 - Data Wrangler extention (optional but recommended)
 
 ### Setup Steps
-1. Clone this repository:
+1. Download or clone this repository:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
