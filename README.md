@@ -1,4 +1,3 @@
-# SentimentAnalysis
 # Sentiment Analysis Project
 
 ## Overview
@@ -52,6 +51,8 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 ### Prerequisites
 - Python 3.7+
 - Virtual environment (optional but recommended)
+- Cursor https://www.cursor.com/downloads
+- Data Wrangler extention (optional but recommended)
 
 ### Setup Steps
 1. Clone this repository:
@@ -59,33 +60,14 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
    git clone <repository-url>
    cd <repository-folder>
    ```
-2. Create and activate a virtual environment:
+2. Install required packages:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Install Jupyter Notebook for code execution:
-   ```bash
-   pip install jupyter
+   pip install fastapi uvicorn transformers tensorflow numpy pydantic requests nltk stemming pandas matplotlib seaborn
    ```
 
 ---
 
 ## Usage
-
-### Running the Jupyter Notebook
-1. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-2. Open the notebook file to:
-   - Load and preprocess the dataset.
-   - Train and evaluate the sentiment analysis model.
-   - Visualize sentiment distribution.
 
 ### Running the FastAPI Application
 1. Start the FastAPI server:
