@@ -51,6 +51,8 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 ### Prerequisites
 - Python 3.7+
 - Virtual environment (optional but recommended)
+- Cursor https://www.cursor.com/downloads
+- Data Wrangler extention (optional but recommended)
 
 ### Setup Steps
 1. Clone this repository:
@@ -66,16 +68,6 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 ---
 
 ## Usage
-
-### Running the Jupyter Notebook
-1. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-2. Open the notebook file to:
-   - Load and preprocess the dataset.
-   - Train and evaluate the sentiment analysis model.
-   - Visualize sentiment distribution.
 
 ### Running the FastAPI Application
 1. Start the FastAPI server:
