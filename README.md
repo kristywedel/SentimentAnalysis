@@ -58,16 +58,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
    git clone <repository-url>
    cd <repository-folder>
    ```
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Install Jupyter Notebook for code execution:
+2. Install Jupyter Notebook for code execution:
    ```bash
    pip install jupyter
    ```
