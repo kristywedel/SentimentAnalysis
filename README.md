@@ -60,9 +60,9 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
    git clone <repository-url>
    cd <repository-folder>
    ```
-2. Install Jupyter Notebook for code execution:
+2. Install required packages:
    ```bash
-   pip install jupyter
+   pip install fastapi uvicorn transformers tensorflow numpy pydantic requests nltk stemming pandas matplotlib seaborn
    ```
 
 ---
