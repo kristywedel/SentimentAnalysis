@@ -49,20 +49,20 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 ## Installation
 
 ### Prerequisites
-- Python 3.7+
-- Virtual environment (optional but recommended)
+- Conda (Miniconda or Anaconda): Anaconda (includes more tools): https://www.anaconda.com/ or Miniconda (lightweight option): https://docs.conda.io/en/latest/miniconda.html
 - Cursor https://www.cursor.com/downloads
 - Data Wrangler extention (optional but recommended)
 
 ### Setup Steps
-1. Clone this repository:
+1. Download or clone this repository:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
    ```
-2. Install required packages:
+2. Open a command prompt and navigate (cd) to the repository directory:
    ```bash
-   pip install fastapi uvicorn transformers tensorflow numpy pydantic requests nltk stemming pandas matplotlib seaborn
+   conda env create -f environment.yml
+   conda activate workshop_env
    ```
 
 ---
