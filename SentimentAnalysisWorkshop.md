@@ -138,6 +138,7 @@ h1, h2, h3 {
 
 <div class="center-content">
 
+###### Follow Sentiment Analysis Workshop Quick Start.docx Instructions
 ### Install Conda
 [Anaconda](https://www.anaconda.com/) (comprehensive)
 OR
