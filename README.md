@@ -55,7 +55,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
   - Alternatively, you can install Python directly, but this won’t have the dependencies pre-loaded.  
   - [Watch: How to Install Conda](https://www.youtube.com/watch?v=wwKAFw2Dwz0)
 - [Cursor](https://www.cursor.com/) (Requires creating a free account)  
-  - [Watch: How to Set Up Cursor](https://www.youtube.com/watch?v=L_A2P1KJYpw)
+  - [Watch: How to Install Cursor](https://www.youtube.com/watch?v=L_A2P1KJYpw)
 
 ### Setup Steps
 1. **Download the GitHub repository and extract it:**
