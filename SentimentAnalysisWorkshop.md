@@ -210,7 +210,6 @@ OR
     <p class="step-1"><strong>Step 1:</strong> Data Cleaning and Preprocessing</p>
     <p class="step"><strong>Step 2:</strong> Model Training and Evaluation</p>
     <p class="step"><strong>Step 3:</strong> Deployment and Prediction</p>
-    <p class="step"><strong>Step 4:</strong> Real-Time Sentiment Predictions</p>
 </div>
 
 ---
@@ -244,11 +243,7 @@ Then, save the dataset as a new csv and visualize the distribution by sentiment 
 <div class="inline-content">
   <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/CleanandPreprocess.gif?raw=true" class="image1" />
 </div>
----
-**Prompt Example**:
-```plaintext
-Visualize the sentiment distribution using a simple bar chart (no seaborn or matplotlib).
-```
+
 ---
 # Workflow Steps
 
@@ -262,7 +257,6 @@ Visualize the sentiment distribution using a simple bar chart (no seaborn or mat
     <p class="step"><strong>Step 1:</strong> Data Cleaning and Preprocessing</p>
     <p class="step-1"><strong>Step 2:</strong> Model Training and Evaluation</p>
     <p class="step"><strong>Step 3:</strong> Deployment and Prediction</p>
-    <p class="step"><strong>Step 4:</strong> Real-Time Sentiment Predictions</p>
 </div>
 
 ---
@@ -273,6 +267,10 @@ Use Hugging Face Transformers and tensorflow to train a sentiment classification
 - Group Positive and Neutral sentiments together.
 - Provide metrics to evaluate: Accuracy, Precision, Recall, F1-score.
 ```
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/Model.gif?raw=true" class="image1" />
+</div>
+
 ---
 
 # Workflow Steps
@@ -286,8 +284,7 @@ Use Hugging Face Transformers and tensorflow to train a sentiment classification
     <!-- All steps are visible initially -->
     <p class="step"><strong>Step 1:</strong> Data Cleaning and Preprocessing</p>
     <p class="step"><strong>Step 2:</strong> Model Training and Evaluation</p>
-    <p class="step"><strong>Step 3:</strong> Deployment and Prediction</p>
-    <p class="step-1"><strong>Step 4:</strong> Real-Time Sentiment Predictions</p>
+    <p class="step-1"><strong>Step 3:</strong> Deployment and Prediction</p>
 </div>
 
 ---
@@ -297,7 +294,11 @@ Deploy a FastAPI application for sentiment analysis with:
 1. TensorFlow integration.
 2. Environment variables to suppress TensorFlow warnings.
 3. Endpoint: "/predict" to classify sentiment.
+4. A test script.
 ```
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/App.gif?raw=true" class="image1" />
+</div>
 
 ---
 # Conclusion
