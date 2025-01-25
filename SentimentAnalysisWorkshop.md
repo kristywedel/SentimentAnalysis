@@ -225,6 +225,7 @@ Write Python code to:
 <div class="inline-content">
   <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/DataLoading.gif?raw=true" class="image1" />
 </div>
+
 ---
 
 # Data Cleaning
@@ -241,7 +242,7 @@ Write Python code to replace the existing data:
 Then, save the dataset as a new csv and visualize the distribution by sentiment with a simple chart.
 ```
 <div class="inline-content">
-  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/DataPreprocessingandCleaning.gif?raw=true" class="image1" />
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/CleanandPreprocess.gif?raw=true" class="image1" />
 </div>
 ---
 **Prompt Example**:
