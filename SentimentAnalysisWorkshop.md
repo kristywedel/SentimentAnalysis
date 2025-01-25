@@ -222,7 +222,9 @@ OR
 Write Python code to:
 - Create a python jupyter notebook to load customer_feedback.csv
 ```
-
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/DataPreprocessingandCleaning.gif?raw=true" class="image1" />
+</div>
 ---
 
 # Data Cleaning
