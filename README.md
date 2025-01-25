@@ -49,22 +49,32 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 ## Installation
 
 ### Prerequisites
-- Conda (Miniconda or Anaconda): Anaconda (includes more tools): https://www.anaconda.com/ or Miniconda (lightweight option): https://docs.conda.io/en/latest/miniconda.html
-- Cursor https://www.cursor.com/downloads
-- Data Wrangler extention (optional but recommended)
+- **Conda**:
+  - [Miniconda (lightweight option)](https://docs.conda.io/en/latest/miniconda.html)
+  - [Anaconda (includes more tools)](https://www.anaconda.com/)
+  - Alternatively, you can install Python directly, but this won’t have the dependencies pre-loaded.  
+  - [Watch: How to Install Conda](https://www.youtube.com/watch?v=wwKAFw2Dwz0)
+- [Cursor](https://www.cursor.com/) (Requires creating a free account)  
+  - [Watch: How to Set Up Cursor](https://www.youtube.com/watch?v=L_A2P1KJYpw)
 
 ### Setup Steps
-1. Download or clone this repository:
+1. **Download the GitHub repository and extract it:**
+   - GitHub link: [https://bit.ly/3PIK4RU](https://bit.ly/3PIK4RU)  
+   - [Watch: How to Download GitHub Files and Set Up Conda](https://www.youtube.com/watch?v=Fv_tDvJuJpk)
+
+   Alternatively, use Git to clone the repository:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
    ```
-2. Open a command prompt and navigate (cd) to the repository directory:
+2. **Conda Env Setup:**
+   - Open a command prompt and navigate (cd) to the repository directory
    ```bash
    conda env create -f environment.yml
    conda activate workshop_env
    ```
-
+3. **Cursor Setup:**
+   - [Watch: How to Set Up Cursor](https://www.youtube.com/watch?v=kSbIeTXuuiY)
 ---
 
 ## Usage
