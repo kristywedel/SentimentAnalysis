@@ -178,6 +178,52 @@ OR
 </div>
 
 ---
+
+# Traditional ML
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/SupervisedandUnsupervised.png?raw=true" class="image2" />
+</div>
+
+<!-- speaker: This slide explains classical supervised and unsupervised learning workflows. Highlight the inputs—training code and labeled data—as essential components for building a model. Discuss how the model building process leverages this data to output predictions, classifications, or clustering. Emphasize the need for labeled data in supervised learning versus patterns in data for unsupervised learning. -->
+
+---
+
+# Gen AI
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/GenAI.png?raw=true" class="image2" />
+</div>
+
+<!-- speaker: This slide introduces generative AI workflows. Explain how foundation models use a mix of training code, labeled data, and even unlabeled data to generate new content such as text, code, or images. Emphasize the versatility of these models in both supervised and unsupervised settings and their ability to adapt to a wide range of creative outputs. -->
+
+---
+
+# How Gen AI Works
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/HowGenAIWorks.png?raw=true" class="image2" />
+</div>
+
+<!-- speaker: This slide provides an overview of the working mechanism of generative AI models. Discuss the pre-training phase, which involves processing vast amounts of data and billions of parameters through unsupervised learning. Explain the transformer architecture, focusing on encoding and decoding components that enable the model to generate human-like responses. Use the example input and output to illustrate the process. -->
+
+---
+
+# Hallucinations
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/Hallucinations.png?raw=true" class="image2" />
+</div>
+
+<!-- speaker: This slide addresses the challenges of hallucinations in generative AI models. Explain that hallucinations occur when the model generates incorrect or irrelevant information. Discuss the common causes, such as insufficient training data, noisy or dirty data, lack of context, and inadequate constraints. Provide examples and emphasize the importance of improving model training and evaluation to minimize hallucinations. -->
+
+---
+
+# Customization
+<div class="inline-content">
+  <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/Customization.png?raw=true" class="image2" />
+</div>
+
+<!-- speaker: This slide illustrates how foundation models can be customized for specific tasks. Highlight the input data types—text, images, speech, structured data, and 3D signals—and how they are used to train the model. Discuss how adaptation allows these models to perform tasks such as question answering, sentiment analysis, information extraction, and more. Emphasize the flexibility and efficiency of foundation models in diverse use cases. -->
+
+
+---
 # Workflow Steps
 
 <div class="workflow">
