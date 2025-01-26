@@ -188,6 +188,8 @@ OR
     <p class="step"><strong>Step 4:</strong> Real-Time Sentiment Predictions</p>
 </div>
 
+<!-- speaker: These are the speaker notes for this slide. Include details about what to elaborate on for each point. -->
+
 ---
 
 # Data Overview
