@@ -196,7 +196,15 @@ OR
   - 1,000 customer feedback entries.
   - Columns: `Review_ID`, `Review_Text`, `Sentiment`.
   - Labels: Positive, Neutral, Negative.
+
 ---
+
+# Google Colab
+
+  https://tinyurl.com/3jccy5yc
+
+---
+
 # Workflow Steps
 
 <style scoped>
