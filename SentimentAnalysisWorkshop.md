@@ -48,6 +48,20 @@ h1, h2, h3 {
   justify-content: center;
   gap: 1rem; /* Adds space between the image and text */
 }
+.inline-content2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Adds space between elements */
+  font-size: 0.8em; /* Adjusts text size for smaller content */
+}
+.inline-content3 {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;    /* Centers content vertically */
+  width: 100%;            /* Ensures the container spans full width */
+  height: 100%;           /* Optional, adjusts height for vertical centering */
+}
 </style>
 ![bg](https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2148999280.jpg?t=st=1737681808~exp=1737685408~hmac=2f937ae1031498cc3d47ced87d73d353e99d4ca4e6d2b1ebb77472677e673e54&w=996)
 
@@ -222,8 +236,42 @@ OR
 
 <!-- speaker: This slide illustrates how foundation models can be customized for specific tasks. Highlight the input data types—text, images, speech, structured data, and 3D signals—and how they are used to train the model. Discuss how adaptation allows these models to perform tasks such as question answering, sentiment analysis, information extraction, and more. Emphasize the flexibility and efficiency of foundation models in diverse use cases. -->
 
+---
+
+# What is Cursor?
+- AI-powered code editor designed to boost developer productivity.
+- Combines a clean interface with advanced AI capabilities.
+
+<!-- speaker: Explain that Cursor is a modern AI-enhanced code editor. It is designed to assist developers by streamlining their coding workflows and improving productivity. Mention its user-friendly design and integration of AI tools to make coding faster and more efficient. -->
 
 ---
+
+# Cursor: Chat
+- Chat - Chat lets you talk with an AI that sees your codebase. The chat can always see your current file and cursor, so you can ask it things like: "Is there a bug here?". You can add particular blocks of code to the context with Ctrl+Shift+L or "@." You can chat with your entire codebase with Ctrl+Enter.
+<div class="inline-content">
+  <img src="https://assets.basehub.com/191e7e6d/746b9a2cb57b4dc2018c2b048b017d0e/chat-vitto-dark.svg" class="image2" />
+</div>
+
+---
+
+# Cursor: Instant Apply
+- Instant Apply - Apply the code suggestions from chat back into your codebase by clicking the play button on top of any chat codeblock.
+<div class="inline-content">
+  <img src="https://assets.basehub.com/191e7e6d/59484a52b700e30e02fdb89655ddf102/instant-reply-dark-l2.svg" class="image2" />
+</div>
+
+---
+
+# Cursor Benefits
+- Saves time by reducing repetitive tasks.
+- Enhances code quality with AI recommendations.
+- Simplifies onboarding for new developers.
+- Improves collaboration with integrated tools.
+
+<!-- speaker: Discuss the practical advantages of using Cursor, such as the time-saving benefits for developers and improved code quality. Mention how it simplifies the learning curve for new developers and supports teamwork with its built-in collaboration features. -->
+
+---
+
 # Workflow Steps
 
 <div class="workflow">
@@ -245,12 +293,15 @@ OR
   - Columns: `Review_ID`, `Review_Text`, `Sentiment`.
   - Labels: Positive, Neutral, Negative.
 
+<!-- speaker: The dataset we'll be working with contains 1,000 customer feedback entries, which is a manageable size for practical demonstrations and exercises. The key columns are: `Review_ID`, which uniquely identifies each entry, `Review_Text`, which contains the customer feedback, and `Sentiment`, which indicates the feedback's tone as Positive, Neutral, or Negative. This labeled data is essential for training and testing supervised learning models, particularly for tasks like sentiment analysis. -->
+
 ---
 
 # Google Colab
 
   https://tinyurl.com/3jccy5yc
 
+<!-- speaker: Google Colab is a free, cloud-based platform for coding and running Python notebooks. It provides access to powerful computational resources, including GPUs and TPUs, making it ideal for machine learning, data analysis, and other computational tasks. Colab requires no installation, runs entirely in the browser, and integrates seamlessly with Google Drive for saving and sharing projects. It isn't necessary to use this Google Colab because we'll be working from Cursor; however, you can refer to it for the prompts or to leverage sample code. -->
 ---
 
 # Workflow Steps
@@ -279,6 +330,36 @@ Write Python code to:
 <div class="inline-content">
   <img src="https://github.com/kristywedel/SentimentAnalysis/blob/main/Videos/DataLoading.gif?raw=true" class="image1" />
 </div>
+
+---
+# Data Preprocessing
+
+- Data preprocessing is a critical step in data analysis and machine learning.
+- It ensures the raw data is clean, structured, and usable for analysis.
+
+#### Key Steps
+- **Data Cleaning**: Handle missing values, remove duplicates, and correct inconsistencies.
+- **Data Transformation**: Normalize, encode variables, and create new features.
+- **Data Integration**: Merge data from multiple sources, resolve schema mismatches.
+- **Data Reduction**: Reduce dataset size while preserving important information.
+
+<!-- speaker: This slide introduces data preprocessing, a critical step in sentiment analysis. Preprocessing transforms raw customer feedback into a clean, structured format ready for analysis. Key steps include data cleaning, which removes errors and redundancy, and data transformation, where data is standardized or encoded to meet model requirements. Data integration combines information from different sources, ensuring consistency, while data reduction simplifies the dataset to retain essential information, optimizing performance. Together, these steps ensure high-quality data for accurate and efficient sentiment analysis. -->
+---
+
+# Cleaning for Sentiment Analysis
+
+- **Text Cleaning**:
+    - Remove special characters and stop words and convert to lowercase.
+- **Tokenization**:
+    - Split `Review_Text` into words for analysis.
+- **Lemmatization**:
+    - Reduce words to their base forms (e.g., "running" → "run").
+- **Handling Missing Data**:
+    - Drop or impute missing entries.
+- **Deduplication**:
+    - Remove duplicate reviews to avoid bias.
+
+<!-- speaker: This slide outlines key steps for cleaning data in sentiment analysis. Text cleaning removes irrelevant elements like special characters and standardizes the input by converting text to lowercase. Tokenization breaks feedback into smaller units, like words, making it easier for the model to process. Lemmatization simplifies words to their base forms, reducing redundancy and improving consistency. Finally, handling missing data and removing duplicates ensures the dataset is complete and free of biases, providing high-quality inputs for training. -->
 
 ---
 
@@ -315,6 +396,58 @@ Then, save the dataset as a new csv and visualize the distribution by sentiment 
 </div>
 
 ---
+
+# Generative AI Key Terms
+
+- **Tokens**: The smallest units of text, such as words or subwords, used in AI processing.
+- **Encoding**: The process of converting text into numerical representations for machine learning models.
+- **Transformer**: A neural network architecture that uses self-attention to process sequences of data.
+- **Loss**: A metric that measures the difference between predicted and actual outputs, guiding model training.
+- **Epochs**: Complete passes through the entire training dataset during model training.
+
+<!-- speaker: This slide introduces key terms in Generative AI, starting with tokens, which are the smallest units of text, like words or subwords, that the model processes. Next is encoding, the process of converting text into numerical representations that the model can interpret. Transformers are a neural network architecture that uses self-attention to understand relationships in sequences of data, making them highly effective for tasks like language modeling. Loss refers to the metric that measures the error between the model's predictions and actual outputs, guiding the training process. Lastly, epochs represent how many times the model has passed through the entire training dataset, which is crucial for optimizing performance. -->
+
+---
+
+# Overview of Pretrained Models
+
+#### `distilbert-base-uncased-finetuned-sst-2-english`
+
+- **Base Model**: DistilBERT, a lighter, faster version of BERT.
+- **Fine-Tuned Task**: Sentiment analysis using the SST-2 dataset.
+- **Performance**: Delivers accurate binary sentiment predictions (positive/negative).
+- **Use Cases**: Ideal for analyzing customer feedback, social media, and reviews.
+
+<!-- speaker: The distilbert-base-uncased-finetuned-sst-2-english model, which is built on DistilBERT, is a lightweight and faster version of BERT. It has been fine-tuned specifically for sentiment analysis using the SST-2 dataset, making it highly effective for predicting binary sentiments, such as positive or negative. Its performance is robust, delivering accurate predictions across applications like customer feedback analysis, social media monitoring, and review classification. This combination of speed, accuracy, and ease of use makes it a powerful tool for real-world sentiment analysis tasks. -->
+
+---
+
+## Why Use Pretrained Models?
+
+- Minimize training time and computational resources.
+- Achieve state-of-the-art results with minimal fine-tuning.
+- Versatile across various NLP tasks.
+
+<!-- speaker: Pretrained models offer significant advantages, starting with reduced training time and lower computational requirements. These models are already trained on vast datasets, allowing you to achieve state-of-the-art results with minimal fine-tuning for specific tasks. They are highly versatile, supporting a range of NLP applications like sentiment analysis, text generation, and question answering. By leveraging pretrained models, you can save both time and resources while still delivering high-performing, reliable solutions. -->
+
+---
+
+## Other Pretrained Models
+
+1. **BERT**: 
+    - Bidirectional context understanding for tasks like Q&A and classification.
+    - Popular variants: BERT-Base, BERT-Large.
+
+2. **GPT**: 
+    - Autoregressive model for text generation and conversational AI.
+
+3. **DistilBERT**: 
+    - Lightweight, fast, and efficient for edge devices.
+
+<!-- speaker: In addition to DistilBERT, several other pretrained models have become foundational in NLP. BERT, for example, excels in bidirectional context understanding, making it ideal for tasks like question answering and text classification. GPT, on the other hand, focuses on autoregressive text generation, widely used in conversational AI and creative writing. Lastly, DistilBERT is a lightweight version of BERT, designed for faster processing with fewer parameters, making it suitable for edge devices or applications requiring quick responses. Each of these models addresses different needs and strengths in the NLP landscape. -->
+
+---
+
 **Prompt Example**:
 ```plaintext
 Use Hugging Face Transformers and tensorflow to train a sentiment classification model:
@@ -327,6 +460,84 @@ Use Hugging Face Transformers and tensorflow to train a sentiment classification
 </div>
 
 ---
+
+# Overfitting vs. Underfitting in Machine Learning Models
+
+---
+
+## What is Overfitting?
+
+- **Definition**: When a model performs well on training data but poorly on unseen data.
+- **Indicators**:
+    - High training accuracy, low validation/test accuracy.
+    - Large gap between training and validation loss.
+- **Causes**:
+    - Model memorizes training data instead of generalizing patterns.
+    - Excessive model complexity (e.g., too many layers or parameters).
+
+<!-- speaker: 
+**What is Overfitting?** Explain how overfitting occurs when a model memorizes the training data, leading to poor performance on new data. Highlight signs like high training accuracy and a gap between training and validation performance. -->
+
+---
+
+## What is Underfitting?
+
+- **Definition**: When a model performs poorly on both training and unseen data.
+- **Indicators**:
+    - Low accuracy on training data.
+    - Training and validation loss remain high.
+- **Causes**:
+    - Model fails to capture underlying patterns in the data.
+    - Model is too simple (e.g., insufficient layers or parameters).
+
+<!-- speaker: 
+**What is Underfitting?** Contrast this with underfitting, where the model fails to learn patterns in the data, resulting in poor performance on both training and validation sets. Mention how underfitting is often caused by overly simple models or insufficient training. -->
+
+---
+
+## Key Comparison
+
+<div class="inline-content2">
+  <table>
+    <tr>
+      <th>Overfitting</th>
+      <th>Underfitting</th>
+    </tr>
+    <tr>
+      <td>Memorizes training data</td>
+      <td>Fails to learn patterns</td>
+    </tr>
+    <tr>
+      <td>High training accuracy, low test accuracy</td>
+      <td>Low accuracy overall</td>
+    </tr>
+    <tr>
+      <td>Caused by excessive complexity</td>
+      <td>Caused by insufficient complexity</td>
+    </tr>
+  </table>
+</div>
+
+<div class="content3">
+  <img src="https://docs.aws.amazon.com/images/machine-learning/latest/dg/images/mlconcepts_image5.png" class="image2" />
+</div>
+
+
+<!-- speaker: Overfitting and underfitting are both common ML problems. Overfitting occurs when a model memorizes training data, leading to high accuracy on training data but poor performance on new data, as seen in the graph on the right. Underfitting, on the other hand, happens when a model is too simple to capture the underlying patterns in the data, resulting in low accuracy overall, illustrated by the graph on the left. The balanced graph in the center shows the ideal state, where the model generalizes well to new data. Addressing these issues involves techniques like simplifying complex models to prevent overfitting or increasing model capacity to resolve underfitting.-->
+
+---
+
+## Strategies to Address
+
+1. **For Overfitting**:
+    - Data augmentation, dropout, reduce model complexity, K-fold cross-validation.
+2. **For Underfitting**:
+    - Use a more complex model, increase training time, improve feature engineering, or collect more data.
+<!-- speaker: 
+To address overfitting, we can use techniques like dropout, which randomly disables neurons during training to prevent the model from relying too heavily on specific features. Data augmentation is another effective strategy, where we artificially expand the dataset with variations such as flipped images or added noise to improve the model's ability to generalize. For underfitting, the focus shifts to increasing model capacity by adding more layers or parameters to better capture the data's complexity. Additionally, improving the quality and diversity of the training data ensures the model has enough information to learn meaningful patterns. These tailored strategies help achieve a balanced model that performs well on both training and unseen data. -->
+
+---
+
 
 # Workflow Steps
 
