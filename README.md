@@ -50,8 +50,8 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 
 ### Prerequisites
 - **Conda**:
-  - [Miniconda (lightweight option)](https://docs.conda.io/en/latest/miniconda.html)
-  - [Anaconda (includes more tools)](https://www.anaconda.com/)
+  - [Miniconda (lightweight option)](https://www.anaconda.com/download)
+  - [Anaconda (includes more tools)](https://www.anaconda.com/download)
   - Alternatively, you can install Python directly, but this won’t have the dependencies pre-loaded.  
   - [Watch: How to Install Conda](https://www.youtube.com/watch?v=wwKAFw2Dwz0)
 - [Cursor](https://www.cursor.com/) (Requires creating a free account)  

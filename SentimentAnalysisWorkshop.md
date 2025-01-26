@@ -140,10 +140,9 @@ h1, h2, h3 {
 
 ###### Follow Sentiment Analysis Workshop Quick Start.docx Instructions
 ### Install Conda
-[Anaconda](https://www.anaconda.com/) (comprehensive)
+[Miniconda](https://www.anaconda.com/download) (lightweight)
 OR
-[Miniconda](https://docs.conda.io/en/latest/miniconda.html) (lightweight)
-
+[Anaconda](https://www.anaconda.com/download) (comprehensive)
 
 ### Install Cursor
 [Download Cursor](https://www.cursor.com/downloads)
