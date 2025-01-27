@@ -76,8 +76,6 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
 3. **Cursor Setup:**
    - [Watch: How to Set Up Cursor](https://www.youtube.com/watch?v=kSbIeTXuuiY)
 
-4. **NLTK Setup:**
-   - [Watch: How to Set Up Cursor](https://youtu.be/nCT8aYJjHQY) 
 ---
 
 ## Usage
