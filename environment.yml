@@ -297,4 +297,3 @@ dependencies:
       - tf-keras==2.18.0
       - toml==0.10.2
       - watchdog==6.0.0
-prefix: C:\Users\krist\anaconda3\envs\workshop_env
