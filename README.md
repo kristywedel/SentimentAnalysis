@@ -74,7 +74,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to clas
    conda activate workshop_env
    ```
 3. **Cursor Setup:**
-   - [Watch: How to Set Up Cursor](https://www.youtube.com/watch?v=kSbIeTXuuiY)
+   - [Watch: How to Set Up Cursor](https://youtu.be/5ISWpw4bSVE)
 
 ---
 
