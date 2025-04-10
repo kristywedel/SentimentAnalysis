@@ -1,1 +1,5 @@
 venv/* text eol=lf
+*.docx binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
