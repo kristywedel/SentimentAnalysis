@@ -1,1 +1,0 @@
-api_key = "AKIA123456789EXAMPLE"
