@@ -1,0 +1,21 @@
+[[repos]]
+repo = "C:/Users/krist/Documents/GitHub/SentimentAnalysis"
+branches = ["main"]
+[[repos.rules]]
+regex = "(sk-[A-Za-z0-9]{32})"  # Detects OpenAI GPT keys (sk-)
+max_severity = "high"
+
+[[repos.rules]]
+regex = "(llama-[A-Za-z0-9]{32})"  # Detects Llama model keys (llama-)
+max_severity = "high"
+
+[[repos]]
+repo = "C:/Users/krist/Documents/GitHub/DAMATalkWithYourData"
+branches = ["main"]
+[[repos.rules]]
+regex = "(sk-[A-Za-z0-9]{32})"  # Detects OpenAI GPT keys (sk-)
+max_severity = "high"
+
+[[repos.rules]]
+regex = "(llama-[A-Za-z0-9]{32})"  # Detects Llama model keys (llama-)
+max_severity = "high"

@@ -1,0 +1,6 @@
+[[rules]]
+id = "generic-api-key"
+description = "Generic API Key"
+regex = '''apikey|api_key|secret|token'''
+max_severity = "high"
+enabled = true
