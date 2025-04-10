@@ -1,11 +1,6 @@
 repos:
   - repo: https://github.com/zricethezav/gitleaks
-    rev: v8.18.2
+    rev: v8.18.2  # Use the latest stable version
     hooks:
       - id: gitleaks
-        args: [
-          "detect",
-          "--source=.",
-          "--no-banner",
-          "--redact"
-        ]
+        args: ["detect", "--source=.", "--no-banner", "--redact"]
